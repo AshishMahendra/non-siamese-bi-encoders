@@ -1,0 +1,40 @@
+{
+    "datasets": {
+        "banking77": {
+            "path": {
+                "train": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/banking_train.json",
+                "test": {
+                    "text": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/banking_test.json",
+                    "label": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/banking_test_label.json"
+                }
+            }
+        },
+        "clinc_150": {
+            "path": {
+                "train": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/clinc_full_training_pos.json",
+                "test": {
+                    "text": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/clinc_full_testing_pos.json",
+                    "label": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/clinc_test_label.json"
+                }
+            }
+        },
+        "sgd": {
+            "path": {
+                "train": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/sgd_train.json",
+                "test": {
+                    "text": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/sgd_test.json",
+                    "label": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/sgd_test_label.json"
+                }
+            }
+        },
+        "snips": {
+            "path": {
+                "train": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/snips_full_training_pos.json",
+                "test": {
+                    "text": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/snips_full_testing_pos.json",
+                    "label": "/Users/stefanhg/Documents/UMich/Research/Non-Siamese Bi-Encoder/Non-Siamese-Bi-Encoder/datasets/snips_testing_label.json"
+                }
+            }
+        }
+    }
+}

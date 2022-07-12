@@ -15,6 +15,7 @@ cloudpickle==2.1.0
 conllu==4.4.2
 cryptography @ file:///tmp/build/80754af9/cryptography_1652083738073/work
 cycler==0.11.0
+datasets==2.3.2
 Deprecated==1.2.13
 dnspython==2.2.1
 email-validator==1.2.1
@@ -90,6 +91,7 @@ sniffio==1.2.0
 soupsieve==2.3.2.post1
 sqlitedict==2.0.0
 starlette==0.19.1
+stefutils==0.10.3
 stripe==3.2.0
 tabulate==0.8.9
 threadpoolctl==3.1.0
@@ -110,4 +112,3 @@ websockets==10.3
 Wikipedia-API==0.5.4
 wrapt==1.14.1
 zipp==3.8.0
-
