@@ -1,0 +1,600 @@
+1	What is the cheapest restaurant between Balthazar and Lombardi's?	bookrestaurant
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	sharecurrentlocation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	searchplace
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getweather
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	gettrafficinformation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	shareeta
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	requestride
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getdirections
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	compareplaces
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getplacedetails
+1	Which restaurant is the cheapest, Shake Shack or Five Guys ?	bookrestaurant
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	searchplace
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	getdirections
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	getweather
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	sharecurrentlocation
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	compareplaces
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	getplacedetails
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	gettrafficinformation
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	shareeta
+0	Which restaurant is the cheapest, Shake Shack or Five Guys ?	requestride
+1	What is the cheapest restaurant between Balthazar and Lombardi's?	bookrestaurant
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getplacedetails
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	searchplace
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	shareeta
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	compareplaces
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	requestride
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	gettrafficinformation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getweather
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	sharecurrentlocation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getdirections
+1	What is the cheapest restaurant between Balthazar and Lombardi's?	bookrestaurant
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getplacedetails
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getweather
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	requestride
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	searchplace
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	shareeta
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getdirections
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	sharecurrentlocation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	gettrafficinformation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	compareplaces
+1	What is the cheapest restaurant between Balthazar and Lombardi's?	bookrestaurant
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getweather
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	requestride
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getplacedetails
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	sharecurrentlocation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	searchplace
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	getdirections
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	shareeta
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	gettrafficinformation
+0	What is the cheapest restaurant between Balthazar and Lombardi's?	compareplaces
+1	What is the most expensive restaurant between Per Se and Rao's?	bookrestaurant
+0	What is the most expensive restaurant between Per Se and Rao's?	requestride
+0	What is the most expensive restaurant between Per Se and Rao's?	sharecurrentlocation
+0	What is the most expensive restaurant between Per Se and Rao's?	compareplaces
+0	What is the most expensive restaurant between Per Se and Rao's?	searchplace
+0	What is the most expensive restaurant between Per Se and Rao's?	gettrafficinformation
+0	What is the most expensive restaurant between Per Se and Rao's?	shareeta
+0	What is the most expensive restaurant between Per Se and Rao's?	getplacedetails
+0	What is the most expensive restaurant between Per Se and Rao's?	getdirections
+0	What is the most expensive restaurant between Per Se and Rao's?	getweather
+1	Order a cab at Shake Shack to go to the Empire State Building	requestride
+0	Order a cab at Shake Shack to go to the Empire State Building	getweather
+0	Order a cab at Shake Shack to go to the Empire State Building	shareeta
+0	Order a cab at Shake Shack to go to the Empire State Building	getdirections
+0	Order a cab at Shake Shack to go to the Empire State Building	compareplaces
+0	Order a cab at Shake Shack to go to the Empire State Building	bookrestaurant
+0	Order a cab at Shake Shack to go to the Empire State Building	gettrafficinformation
+0	Order a cab at Shake Shack to go to the Empire State Building	searchplace
+0	Order a cab at Shake Shack to go to the Empire State Building	sharecurrentlocation
+0	Order a cab at Shake Shack to go to the Empire State Building	getplacedetails
+1	Order a cab at Shake Shack to go to the Empire State Building	requestride
+0	Order a cab at Shake Shack to go to the Empire State Building	getweather
+0	Order a cab at Shake Shack to go to the Empire State Building	getdirections
+0	Order a cab at Shake Shack to go to the Empire State Building	searchplace
+0	Order a cab at Shake Shack to go to the Empire State Building	gettrafficinformation
+0	Order a cab at Shake Shack to go to the Empire State Building	sharecurrentlocation
+0	Order a cab at Shake Shack to go to the Empire State Building	compareplaces
+0	Order a cab at Shake Shack to go to the Empire State Building	bookrestaurant
+0	Order a cab at Shake Shack to go to the Empire State Building	shareeta
+0	Order a cab at Shake Shack to go to the Empire State Building	getplacedetails
+1	Get a taxi to the nearest japanese restaurant	requestride
+0	Get a taxi to the nearest japanese restaurant	compareplaces
+0	Get a taxi to the nearest japanese restaurant	sharecurrentlocation
+0	Get a taxi to the nearest japanese restaurant	getweather
+0	Get a taxi to the nearest japanese restaurant	bookrestaurant
+0	Get a taxi to the nearest japanese restaurant	getplacedetails
+0	Get a taxi to the nearest japanese restaurant	getdirections
+0	Get a taxi to the nearest japanese restaurant	shareeta
+0	Get a taxi to the nearest japanese restaurant	gettrafficinformation
+0	Get a taxi to the nearest japanese restaurant	searchplace
+1	Is there any Uber around?	requestride
+0	Is there any Uber around?	getdirections
+0	Is there any Uber around?	sharecurrentlocation
+0	Is there any Uber around?	bookrestaurant
+0	Is there any Uber around?	getweather
+0	Is there any Uber around?	compareplaces
+0	Is there any Uber around?	searchplace
+0	Is there any Uber around?	getplacedetails
+0	Is there any Uber around?	gettrafficinformation
+0	Is there any Uber around?	shareeta
+1	Get a Lyft car at Scott's place	requestride
+0	Get a Lyft car at Scott's place	getplacedetails
+0	Get a Lyft car at Scott's place	gettrafficinformation
+0	Get a Lyft car at Scott's place	bookrestaurant
+0	Get a Lyft car at Scott's place	searchplace
+0	Get a Lyft car at Scott's place	compareplaces
+0	Get a Lyft car at Scott's place	sharecurrentlocation
+0	Get a Lyft car at Scott's place	getweather
+0	Get a Lyft car at Scott's place	shareeta
+0	Get a Lyft car at Scott's place	getdirections
+1	Get a Lyft car at Scott's place	requestride
+0	Get a Lyft car at Scott's place	shareeta
+0	Get a Lyft car at Scott's place	compareplaces
+0	Get a Lyft car at Scott's place	gettrafficinformation
+0	Get a Lyft car at Scott's place	getplacedetails
+0	Get a Lyft car at Scott's place	sharecurrentlocation
+0	Get a Lyft car at Scott's place	searchplace
+0	Get a Lyft car at Scott's place	getdirections
+0	Get a Lyft car at Scott's place	getweather
+0	Get a Lyft car at Scott's place	bookrestaurant
+1	I need the weather at Jo's place around 8 pm	getplacedetails
+0	I need the weather at Jo's place around 8 pm	sharecurrentlocation
+0	I need the weather at Jo's place around 8 pm	searchplace
+0	I need the weather at Jo's place around 8 pm	shareeta
+0	I need the weather at Jo's place around 8 pm	compareplaces
+0	I need the weather at Jo's place around 8 pm	getweather
+0	I need the weather at Jo's place around 8 pm	bookrestaurant
+0	I need the weather at Jo's place around 8 pm	gettrafficinformation
+0	I need the weather at Jo's place around 8 pm	getdirections
+0	I need the weather at Jo's place around 8 pm	requestride
+1	What's the weather like at work?	getplacedetails
+0	What's the weather like at work?	sharecurrentlocation
+0	What's the weather like at work?	compareplaces
+0	What's the weather like at work?	gettrafficinformation
+0	What's the weather like at work?	bookrestaurant
+0	What's the weather like at work?	getweather
+0	What's the weather like at work?	requestride
+0	What's the weather like at work?	searchplace
+0	What's the weather like at work?	getdirections
+0	What's the weather like at work?	shareeta
+1	What will the weather be like when I land in Paris?	getplacedetails
+0	What will the weather be like when I land in Paris?	shareeta
+0	What will the weather be like when I land in Paris?	searchplace
+0	What will the weather be like when I land in Paris?	getweather
+0	What will the weather be like when I land in Paris?	gettrafficinformation
+0	What will the weather be like when I land in Paris?	requestride
+0	What will the weather be like when I land in Paris?	compareplaces
+0	What will the weather be like when I land in Paris?	sharecurrentlocation
+0	What will the weather be like when I land in Paris?	getdirections
+0	What will the weather be like when I land in Paris?	bookrestaurant
+1	What's the weather like at my parents'?	getplacedetails
+0	What's the weather like at my parents'?	bookrestaurant
+0	What's the weather like at my parents'?	compareplaces
+0	What's the weather like at my parents'?	sharecurrentlocation
+0	What's the weather like at my parents'?	searchplace
+0	What's the weather like at my parents'?	shareeta
+0	What's the weather like at my parents'?	getdirections
+0	What's the weather like at my parents'?	requestride
+0	What's the weather like at my parents'?	gettrafficinformation
+0	What's the weather like at my parents'?	getweather
+1	What's the weather like near my upcoming event?	getplacedetails
+0	What's the weather like near my upcoming event?	bookrestaurant
+0	What's the weather like near my upcoming event?	compareplaces
+0	What's the weather like near my upcoming event?	shareeta
+0	What's the weather like near my upcoming event?	getweather
+0	What's the weather like near my upcoming event?	searchplace
+0	What's the weather like near my upcoming event?	requestride
+0	What's the weather like near my upcoming event?	gettrafficinformation
+0	What's the weather like near my upcoming event?	getdirections
+0	What's the weather like near my upcoming event?	sharecurrentlocation
+1	Is it going to rain tomorrow?	getplacedetails
+0	Is it going to rain tomorrow?	getweather
+0	Is it going to rain tomorrow?	sharecurrentlocation
+0	Is it going to rain tomorrow?	requestride
+0	Is it going to rain tomorrow?	shareeta
+0	Is it going to rain tomorrow?	getdirections
+0	Is it going to rain tomorrow?	gettrafficinformation
+0	Is it going to rain tomorrow?	compareplaces
+0	Is it going to rain tomorrow?	bookrestaurant
+0	Is it going to rain tomorrow?	searchplace
+1	Find me a good expensive japanese restaurant near work	getdirections
+0	Find me a good expensive japanese restaurant near work	sharecurrentlocation
+0	Find me a good expensive japanese restaurant near work	searchplace
+0	Find me a good expensive japanese restaurant near work	gettrafficinformation
+0	Find me a good expensive japanese restaurant near work	compareplaces
+0	Find me a good expensive japanese restaurant near work	bookrestaurant
+0	Find me a good expensive japanese restaurant near work	getweather
+0	Find me a good expensive japanese restaurant near work	requestride
+0	Find me a good expensive japanese restaurant near work	getplacedetails
+0	Find me a good expensive japanese restaurant near work	shareeta
+1	Find a good fried chicken restaurant that is not a fast food	getdirections
+0	Find a good fried chicken restaurant that is not a fast food	bookrestaurant
+0	Find a good fried chicken restaurant that is not a fast food	compareplaces
+0	Find a good fried chicken restaurant that is not a fast food	searchplace
+0	Find a good fried chicken restaurant that is not a fast food	gettrafficinformation
+0	Find a good fried chicken restaurant that is not a fast food	sharecurrentlocation
+0	Find a good fried chicken restaurant that is not a fast food	shareeta
+0	Find a good fried chicken restaurant that is not a fast food	requestride
+0	Find a good fried chicken restaurant that is not a fast food	getweather
+0	Find a good fried chicken restaurant that is not a fast food	getplacedetails
+1	Find me the closest theatre for tonight	getdirections
+0	Find me the closest theatre for tonight	sharecurrentlocation
+0	Find me the closest theatre for tonight	bookrestaurant
+0	Find me the closest theatre for tonight	searchplace
+0	Find me the closest theatre for tonight	requestride
+0	Find me the closest theatre for tonight	getweather
+0	Find me the closest theatre for tonight	getplacedetails
+0	Find me the closest theatre for tonight	shareeta
+0	Find me the closest theatre for tonight	gettrafficinformation
+0	Find me the closest theatre for tonight	compareplaces
+1	Find a good fried chicken restaurant that is not a fast food	getdirections
+0	Find a good fried chicken restaurant that is not a fast food	searchplace
+0	Find a good fried chicken restaurant that is not a fast food	sharecurrentlocation
+0	Find a good fried chicken restaurant that is not a fast food	gettrafficinformation
+0	Find a good fried chicken restaurant that is not a fast food	getweather
+0	Find a good fried chicken restaurant that is not a fast food	compareplaces
+0	Find a good fried chicken restaurant that is not a fast food	shareeta
+0	Find a good fried chicken restaurant that is not a fast food	requestride
+0	Find a good fried chicken restaurant that is not a fast food	getplacedetails
+0	Find a good fried chicken restaurant that is not a fast food	bookrestaurant
+1	Find me the finest sushi restaurant in the area of my next meeting	getdirections
+0	Find me the finest sushi restaurant in the area of my next meeting	shareeta
+0	Find me the finest sushi restaurant in the area of my next meeting	bookrestaurant
+0	Find me the finest sushi restaurant in the area of my next meeting	searchplace
+0	Find me the finest sushi restaurant in the area of my next meeting	gettrafficinformation
+0	Find me the finest sushi restaurant in the area of my next meeting	compareplaces
+0	Find me the finest sushi restaurant in the area of my next meeting	getplacedetails
+0	Find me the finest sushi restaurant in the area of my next meeting	sharecurrentlocation
+0	Find me the finest sushi restaurant in the area of my next meeting	requestride
+0	Find me the finest sushi restaurant in the area of my next meeting	getweather
+1	Find me a good expensive japanese restaurant near work	getdirections
+0	Find me a good expensive japanese restaurant near work	compareplaces
+0	Find me a good expensive japanese restaurant near work	requestride
+0	Find me a good expensive japanese restaurant near work	bookrestaurant
+0	Find me a good expensive japanese restaurant near work	getplacedetails
+0	Find me a good expensive japanese restaurant near work	searchplace
+0	Find me a good expensive japanese restaurant near work	gettrafficinformation
+0	Find me a good expensive japanese restaurant near work	sharecurrentlocation
+0	Find me a good expensive japanese restaurant near work	shareeta
+0	Find me a good expensive japanese restaurant near work	getweather
+1	Is there a children's menu at The Standard Grill?	compareplaces
+0	Is there a children's menu at The Standard Grill?	getdirections
+0	Is there a children's menu at The Standard Grill?	shareeta
+0	Is there a children's menu at The Standard Grill?	sharecurrentlocation
+0	Is there a children's menu at The Standard Grill?	getplacedetails
+0	Is there a children's menu at The Standard Grill?	getweather
+0	Is there a children's menu at The Standard Grill?	bookrestaurant
+0	Is there a children's menu at The Standard Grill?	requestride
+0	Is there a children's menu at The Standard Grill?	searchplace
+0	Is there a children's menu at The Standard Grill?	gettrafficinformation
+1	Are there some tips to know when going to Battery Park?	compareplaces
+0	Are there some tips to know when going to Battery Park?	sharecurrentlocation
+0	Are there some tips to know when going to Battery Park?	bookrestaurant
+0	Are there some tips to know when going to Battery Park?	requestride
+0	Are there some tips to know when going to Battery Park?	searchplace
+0	Are there some tips to know when going to Battery Park?	getdirections
+0	Are there some tips to know when going to Battery Park?	getplacedetails
+0	Are there some tips to know when going to Battery Park?	shareeta
+0	Are there some tips to know when going to Battery Park?	getweather
+0	Are there some tips to know when going to Battery Park?	gettrafficinformation
+1	How crowded is Per Se right now?	compareplaces
+0	How crowded is Per Se right now?	searchplace
+0	How crowded is Per Se right now?	bookrestaurant
+0	How crowded is Per Se right now?	sharecurrentlocation
+0	How crowded is Per Se right now?	gettrafficinformation
+0	How crowded is Per Se right now?	getdirections
+0	How crowded is Per Se right now?	shareeta
+0	How crowded is Per Se right now?	requestride
+0	How crowded is Per Se right now?	getplacedetails
+0	How crowded is Per Se right now?	getweather
+1	When is Rao's the most crowded?	compareplaces
+0	When is Rao's the most crowded?	getplacedetails
+0	When is Rao's the most crowded?	requestride
+0	When is Rao's the most crowded?	getweather
+0	When is Rao's the most crowded?	gettrafficinformation
+0	When is Rao's the most crowded?	shareeta
+0	When is Rao's the most crowded?	bookrestaurant
+0	When is Rao's the most crowded?	searchplace
+0	When is Rao's the most crowded?	getdirections
+0	When is Rao's the most crowded?	sharecurrentlocation
+1	How crowded is the bar near my place?	compareplaces
+0	How crowded is the bar near my place?	getplacedetails
+0	How crowded is the bar near my place?	getdirections
+0	How crowded is the bar near my place?	searchplace
+0	How crowded is the bar near my place?	sharecurrentlocation
+0	How crowded is the bar near my place?	getweather
+0	How crowded is the bar near my place?	bookrestaurant
+0	How crowded is the bar near my place?	requestride
+0	How crowded is the bar near my place?	gettrafficinformation
+0	How crowded is the bar near my place?	shareeta
+1	Is there valet parking at Kang Ho Dong Baekjeong?	compareplaces
+0	Is there valet parking at Kang Ho Dong Baekjeong?	getweather
+0	Is there valet parking at Kang Ho Dong Baekjeong?	shareeta
+0	Is there valet parking at Kang Ho Dong Baekjeong?	requestride
+0	Is there valet parking at Kang Ho Dong Baekjeong?	getdirections
+0	Is there valet parking at Kang Ho Dong Baekjeong?	bookrestaurant
+0	Is there valet parking at Kang Ho Dong Baekjeong?	searchplace
+0	Is there valet parking at Kang Ho Dong Baekjeong?	getplacedetails
+0	Is there valet parking at Kang Ho Dong Baekjeong?	sharecurrentlocation
+0	Is there valet parking at Kang Ho Dong Baekjeong?	gettrafficinformation
+1	Share my current location	sharecurrentlocation
+0	Share my current location	compareplaces
+0	Share my current location	gettrafficinformation
+0	Share my current location	requestride
+0	Share my current location	getdirections
+0	Share my current location	searchplace
+0	Share my current location	bookrestaurant
+0	Share my current location	getweather
+0	Share my current location	shareeta
+0	Share my current location	getplacedetails
+1	Send my current location to the friends I'm meeting with	sharecurrentlocation
+0	Send my current location to the friends I'm meeting with	gettrafficinformation
+0	Send my current location to the friends I'm meeting with	getplacedetails
+0	Send my current location to the friends I'm meeting with	searchplace
+0	Send my current location to the friends I'm meeting with	getdirections
+0	Send my current location to the friends I'm meeting with	compareplaces
+0	Send my current location to the friends I'm meeting with	shareeta
+0	Send my current location to the friends I'm meeting with	getweather
+0	Send my current location to the friends I'm meeting with	requestride
+0	Send my current location to the friends I'm meeting with	bookrestaurant
+1	Share my current location	sharecurrentlocation
+0	Share my current location	getweather
+0	Share my current location	compareplaces
+0	Share my current location	gettrafficinformation
+0	Share my current location	getplacedetails
+0	Share my current location	shareeta
+0	Share my current location	requestride
+0	Share my current location	searchplace
+0	Share my current location	bookrestaurant
+0	Share my current location	getdirections
+1	Share my current location	sharecurrentlocation
+0	Share my current location	requestride
+0	Share my current location	getplacedetails
+0	Share my current location	searchplace
+0	Share my current location	bookrestaurant
+0	Share my current location	gettrafficinformation
+0	Share my current location	getweather
+0	Share my current location	compareplaces
+0	Share my current location	getdirections
+0	Share my current location	shareeta
+1	Send my current location to the friends I'm meeting with	sharecurrentlocation
+0	Send my current location to the friends I'm meeting with	compareplaces
+0	Send my current location to the friends I'm meeting with	bookrestaurant
+0	Send my current location to the friends I'm meeting with	shareeta
+0	Send my current location to the friends I'm meeting with	getweather
+0	Send my current location to the friends I'm meeting with	getplacedetails
+0	Send my current location to the friends I'm meeting with	getdirections
+0	Send my current location to the friends I'm meeting with	searchplace
+0	Send my current location to the friends I'm meeting with	requestride
+0	Send my current location to the friends I'm meeting with	gettrafficinformation
+1	Send my current location to the friends I'm meeting with	sharecurrentlocation
+0	Send my current location to the friends I'm meeting with	bookrestaurant
+0	Send my current location to the friends I'm meeting with	getdirections
+0	Send my current location to the friends I'm meeting with	gettrafficinformation
+0	Send my current location to the friends I'm meeting with	compareplaces
+0	Send my current location to the friends I'm meeting with	requestride
+0	Send my current location to the friends I'm meeting with	searchplace
+0	Send my current location to the friends I'm meeting with	getplacedetails
+0	Send my current location to the friends I'm meeting with	shareeta
+0	Send my current location to the friends I'm meeting with	getweather
+1	How's the traffic from here to Central Park?	searchplace
+0	How's the traffic from here to Central Park?	sharecurrentlocation
+0	How's the traffic from here to Central Park?	getplacedetails
+0	How's the traffic from here to Central Park?	requestride
+0	How's the traffic from here to Central Park?	getdirections
+0	How's the traffic from here to Central Park?	shareeta
+0	How's the traffic from here to Central Park?	getweather
+0	How's the traffic from here to Central Park?	compareplaces
+0	How's the traffic from here to Central Park?	gettrafficinformation
+0	How's the traffic from here to Central Park?	bookrestaurant
+1	How's the traffic from here to Central Park?	searchplace
+0	How's the traffic from here to Central Park?	getweather
+0	How's the traffic from here to Central Park?	compareplaces
+0	How's the traffic from here to Central Park?	getplacedetails
+0	How's the traffic from here to Central Park?	gettrafficinformation
+0	How's the traffic from here to Central Park?	getdirections
+0	How's the traffic from here to Central Park?	sharecurrentlocation
+0	How's the traffic from here to Central Park?	shareeta
+0	How's the traffic from here to Central Park?	bookrestaurant
+0	How's the traffic from here to Central Park?	requestride
+1	Is the road to work congested?	searchplace
+0	Is the road to work congested?	getdirections
+0	Is the road to work congested?	getplacedetails
+0	Is the road to work congested?	shareeta
+0	Is the road to work congested?	sharecurrentlocation
+0	Is the road to work congested?	getweather
+0	Is the road to work congested?	compareplaces
+0	Is the road to work congested?	bookrestaurant
+0	Is the road to work congested?	requestride
+0	Is the road to work congested?	gettrafficinformation
+1	Is there any traffic on US 20?	searchplace
+0	Is there any traffic on US 20?	compareplaces
+0	Is there any traffic on US 20?	getweather
+0	Is there any traffic on US 20?	shareeta
+0	Is there any traffic on US 20?	bookrestaurant
+0	Is there any traffic on US 20?	getdirections
+0	Is there any traffic on US 20?	getplacedetails
+0	Is there any traffic on US 20?	gettrafficinformation
+0	Is there any traffic on US 20?	sharecurrentlocation
+0	Is there any traffic on US 20?	requestride
+1	How's the traffic from here to Central Park?	searchplace
+0	How's the traffic from here to Central Park?	requestride
+0	How's the traffic from here to Central Park?	getplacedetails
+0	How's the traffic from here to Central Park?	bookrestaurant
+0	How's the traffic from here to Central Park?	shareeta
+0	How's the traffic from here to Central Park?	gettrafficinformation
+0	How's the traffic from here to Central Park?	getweather
+0	How's the traffic from here to Central Park?	getdirections
+0	How's the traffic from here to Central Park?	sharecurrentlocation
+0	How's the traffic from here to Central Park?	compareplaces
+1	How's the traffic from here to Central Park?	searchplace
+0	How's the traffic from here to Central Park?	gettrafficinformation
+0	How's the traffic from here to Central Park?	sharecurrentlocation
+0	How's the traffic from here to Central Park?	shareeta
+0	How's the traffic from here to Central Park?	getdirections
+0	How's the traffic from here to Central Park?	compareplaces
+0	How's the traffic from here to Central Park?	bookrestaurant
+0	How's the traffic from here to Central Park?	requestride
+0	How's the traffic from here to Central Park?	getplacedetails
+0	How's the traffic from here to Central Park?	getweather
+1	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	shareeta
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	getdirections
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	sharecurrentlocation
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	getweather
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	gettrafficinformation
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	searchplace
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	bookrestaurant
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	compareplaces
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	requestride
+0	Book me a table for 8:45pm at a restaurant with wifi near my Airbnb	getplacedetails
+1	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	shareeta
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	gettrafficinformation
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	searchplace
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	bookrestaurant
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	compareplaces
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	getplacedetails
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	getdirections
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	sharecurrentlocation
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	getweather
+0	Book a table for 6 people at Mr Donahue's for tomorrow's lunch	requestride
+1	I want a table in a good japanese restaurant near Trump tower	shareeta
+0	I want a table in a good japanese restaurant near Trump tower	getdirections
+0	I want a table in a good japanese restaurant near Trump tower	getweather
+0	I want a table in a good japanese restaurant near Trump tower	bookrestaurant
+0	I want a table in a good japanese restaurant near Trump tower	getplacedetails
+0	I want a table in a good japanese restaurant near Trump tower	searchplace
+0	I want a table in a good japanese restaurant near Trump tower	gettrafficinformation
+0	I want a table in a good japanese restaurant near Trump tower	requestride
+0	I want a table in a good japanese restaurant near Trump tower	sharecurrentlocation
+0	I want a table in a good japanese restaurant near Trump tower	compareplaces
+1	Book a table for four people at Mondrian Soho for 8pm	shareeta
+0	Book a table for four people at Mondrian Soho for 8pm	gettrafficinformation
+0	Book a table for four people at Mondrian Soho for 8pm	requestride
+0	Book a table for four people at Mondrian Soho for 8pm	compareplaces
+0	Book a table for four people at Mondrian Soho for 8pm	getplacedetails
+0	Book a table for four people at Mondrian Soho for 8pm	searchplace
+0	Book a table for four people at Mondrian Soho for 8pm	bookrestaurant
+0	Book a table for four people at Mondrian Soho for 8pm	getdirections
+0	Book a table for four people at Mondrian Soho for 8pm	sharecurrentlocation
+0	Book a table for four people at Mondrian Soho for 8pm	getweather
+1	Find me an outdoor table at Five leaves for 3	shareeta
+0	Find me an outdoor table at Five leaves for 3	getweather
+0	Find me an outdoor table at Five leaves for 3	getdirections
+0	Find me an outdoor table at Five leaves for 3	searchplace
+0	Find me an outdoor table at Five leaves for 3	getplacedetails
+0	Find me an outdoor table at Five leaves for 3	compareplaces
+0	Find me an outdoor table at Five leaves for 3	sharecurrentlocation
+0	Find me an outdoor table at Five leaves for 3	bookrestaurant
+0	Find me an outdoor table at Five leaves for 3	gettrafficinformation
+0	Find me an outdoor table at Five leaves for 3	requestride
+1	Book a table for today's lunch at Eggy's Diner for 3 people	shareeta
+0	Book a table for today's lunch at Eggy's Diner for 3 people	searchplace
+0	Book a table for today's lunch at Eggy's Diner for 3 people	sharecurrentlocation
+0	Book a table for today's lunch at Eggy's Diner for 3 people	getdirections
+0	Book a table for today's lunch at Eggy's Diner for 3 people	gettrafficinformation
+0	Book a table for today's lunch at Eggy's Diner for 3 people	getweather
+0	Book a table for today's lunch at Eggy's Diner for 3 people	requestride
+0	Book a table for today's lunch at Eggy's Diner for 3 people	bookrestaurant
+0	Book a table for today's lunch at Eggy's Diner for 3 people	compareplaces
+0	Book a table for today's lunch at Eggy's Diner for 3 people	getplacedetails
+1	Show me the way to go to work	getweather
+0	Show me the way to go to work	requestride
+0	Show me the way to go to work	compareplaces
+0	Show me the way to go to work	getplacedetails
+0	Show me the way to go to work	gettrafficinformation
+0	Show me the way to go to work	getdirections
+0	Show me the way to go to work	bookrestaurant
+0	Show me the way to go to work	searchplace
+0	Show me the way to go to work	sharecurrentlocation
+0	Show me the way to go to work	shareeta
+1	I want to go to Boston with the quickest itinerary	getweather
+0	I want to go to Boston with the quickest itinerary	gettrafficinformation
+0	I want to go to Boston with the quickest itinerary	getplacedetails
+0	I want to go to Boston with the quickest itinerary	compareplaces
+0	I want to go to Boston with the quickest itinerary	requestride
+0	I want to go to Boston with the quickest itinerary	bookrestaurant
+0	I want to go to Boston with the quickest itinerary	shareeta
+0	I want to go to Boston with the quickest itinerary	sharecurrentlocation
+0	I want to go to Boston with the quickest itinerary	getdirections
+0	I want to go to Boston with the quickest itinerary	searchplace
+1	Directions to JFK airport at 7am	getweather
+0	Directions to JFK airport at 7am	bookrestaurant
+0	Directions to JFK airport at 7am	getplacedetails
+0	Directions to JFK airport at 7am	compareplaces
+0	Directions to JFK airport at 7am	getdirections
+0	Directions to JFK airport at 7am	shareeta
+0	Directions to JFK airport at 7am	gettrafficinformation
+0	Directions to JFK airport at 7am	sharecurrentlocation
+0	Directions to JFK airport at 7am	requestride
+0	Directions to JFK airport at 7am	searchplace
+1	Cycling directions to my surf lesson at 10am	getweather
+0	Cycling directions to my surf lesson at 10am	bookrestaurant
+0	Cycling directions to my surf lesson at 10am	requestride
+0	Cycling directions to my surf lesson at 10am	gettrafficinformation
+0	Cycling directions to my surf lesson at 10am	shareeta
+0	Cycling directions to my surf lesson at 10am	getdirections
+0	Cycling directions to my surf lesson at 10am	compareplaces
+0	Cycling directions to my surf lesson at 10am	getplacedetails
+0	Cycling directions to my surf lesson at 10am	sharecurrentlocation
+0	Cycling directions to my surf lesson at 10am	searchplace
+1	Transit directions to Barcelona Wine Bar	getweather
+0	Transit directions to Barcelona Wine Bar	shareeta
+0	Transit directions to Barcelona Wine Bar	bookrestaurant
+0	Transit directions to Barcelona Wine Bar	sharecurrentlocation
+0	Transit directions to Barcelona Wine Bar	compareplaces
+0	Transit directions to Barcelona Wine Bar	getdirections
+0	Transit directions to Barcelona Wine Bar	searchplace
+0	Transit directions to Barcelona Wine Bar	requestride
+0	Transit directions to Barcelona Wine Bar	gettrafficinformation
+0	Transit directions to Barcelona Wine Bar	getplacedetails
+1	Driving directions to Tavern on the Green	getweather
+0	Driving directions to Tavern on the Green	bookrestaurant
+0	Driving directions to Tavern on the Green	getplacedetails
+0	Driving directions to Tavern on the Green	searchplace
+0	Driving directions to Tavern on the Green	compareplaces
+0	Driving directions to Tavern on the Green	getdirections
+0	Driving directions to Tavern on the Green	shareeta
+0	Driving directions to Tavern on the Green	requestride
+0	Driving directions to Tavern on the Green	gettrafficinformation
+0	Driving directions to Tavern on the Green	sharecurrentlocation
+1	Send my ETA to the guests of my apartment	gettrafficinformation
+0	Send my ETA to the guests of my apartment	requestride
+0	Send my ETA to the guests of my apartment	sharecurrentlocation
+0	Send my ETA to the guests of my apartment	bookrestaurant
+0	Send my ETA to the guests of my apartment	getplacedetails
+0	Send my ETA to the guests of my apartment	shareeta
+0	Send my ETA to the guests of my apartment	getdirections
+0	Send my ETA to the guests of my apartment	compareplaces
+0	Send my ETA to the guests of my apartment	searchplace
+0	Send my ETA to the guests of my apartment	getweather
+1	Send my ETA to the girl I'm supposed to have dinner with	gettrafficinformation
+0	Send my ETA to the girl I'm supposed to have dinner with	shareeta
+0	Send my ETA to the girl I'm supposed to have dinner with	sharecurrentlocation
+0	Send my ETA to the girl I'm supposed to have dinner with	compareplaces
+0	Send my ETA to the girl I'm supposed to have dinner with	getplacedetails
+0	Send my ETA to the girl I'm supposed to have dinner with	bookrestaurant
+0	Send my ETA to the girl I'm supposed to have dinner with	getdirections
+0	Send my ETA to the girl I'm supposed to have dinner with	searchplace
+0	Send my ETA to the girl I'm supposed to have dinner with	getweather
+0	Send my ETA to the girl I'm supposed to have dinner with	requestride
+1	Send my ETA to the girl I'm supposed to have dinner with	gettrafficinformation
+0	Send my ETA to the girl I'm supposed to have dinner with	compareplaces
+0	Send my ETA to the girl I'm supposed to have dinner with	getdirections
+0	Send my ETA to the girl I'm supposed to have dinner with	shareeta
+0	Send my ETA to the girl I'm supposed to have dinner with	getplacedetails
+0	Send my ETA to the girl I'm supposed to have dinner with	requestride
+0	Send my ETA to the girl I'm supposed to have dinner with	getweather
+0	Send my ETA to the girl I'm supposed to have dinner with	searchplace
+0	Send my ETA to the girl I'm supposed to have dinner with	sharecurrentlocation
+0	Send my ETA to the girl I'm supposed to have dinner with	bookrestaurant
+1	Send a message to Montgomery with my arrival time	gettrafficinformation
+0	Send a message to Montgomery with my arrival time	searchplace
+0	Send a message to Montgomery with my arrival time	sharecurrentlocation
+0	Send a message to Montgomery with my arrival time	getdirections
+0	Send a message to Montgomery with my arrival time	bookrestaurant
+0	Send a message to Montgomery with my arrival time	getplacedetails
+0	Send a message to Montgomery with my arrival time	shareeta
+0	Send a message to Montgomery with my arrival time	compareplaces
+0	Send a message to Montgomery with my arrival time	requestride
+0	Send a message to Montgomery with my arrival time	getweather
+1	Send my ETA to the guests of my apartment	gettrafficinformation
+0	Send my ETA to the guests of my apartment	shareeta
+0	Send my ETA to the guests of my apartment	getweather
+0	Send my ETA to the guests of my apartment	getplacedetails
+0	Send my ETA to the guests of my apartment	bookrestaurant
+0	Send my ETA to the guests of my apartment	requestride
+0	Send my ETA to the guests of my apartment	getdirections
+0	Send my ETA to the guests of my apartment	compareplaces
+0	Send my ETA to the guests of my apartment	searchplace
+0	Send my ETA to the guests of my apartment	sharecurrentlocation
+1	Send a message to my boss with my ETA	gettrafficinformation
+0	Send a message to my boss with my ETA	shareeta
+0	Send a message to my boss with my ETA	sharecurrentlocation
+0	Send a message to my boss with my ETA	requestride
+0	Send a message to my boss with my ETA	getplacedetails
+0	Send a message to my boss with my ETA	compareplaces
+0	Send a message to my boss with my ETA	searchplace
+0	Send a message to my boss with my ETA	getdirections
+0	Send a message to my boss with my ETA	getweather
+0	Send a message to my boss with my ETA	bookrestaurant

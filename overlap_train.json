@@ -1,0 +1,78 @@
+{
+    "dataset": {
+        "order": [
+            "purchase grass seed from the store",
+            "i need to buy something, please",
+            "i'd like to buy a lamp online",
+            "make a purchase of doritos",
+            "what is the price of bluetooth speakers on amazon"
+        ],
+        "order_checks": [
+            "how do i order some checkbooks for my chase account",
+            "how do i order some more checks for my bank of the west account",
+            "how do i order some more checks for my navy federal account",
+            "may i order more checks for my well's fargo account",
+            "where do i go to order more checks for my well's fargo account"
+        ],
+        "restaurant_reservation": [
+            "reserve a table for 3 at 7 for olive garden",
+            "5 people are going to be at tropicana by 8pm, reserve the table under martins name please",
+            "the table should be reserved at 8pm at tropicana using martins name and it should be for 5 people",
+            "make a reservation for 2 tonight at 7:00 at outback steakhouse",
+            "i want to eat at seven in the restaurant for two people"
+        ],
+        "cancel_reservation": [
+            "cancel my reservation for bob at red robin",
+            "i need you to cancel my reservation for 5 at red robin",
+            "i want a cancellation of the dinner reservation for phillips at bernardin's",
+            "i have to cancel my reservation after all",
+            "i need my dinner reservation canceled"
+        ],
+        "book_hotel": [
+            "can you find me a good reviewed hotel in japan",
+            "find me a place to stay in jacksonville near the stadium from january 1st through 3rd",
+            "find me a room near the jacksonville stadium",
+            "get me a hotel room big enough for 4 people from may 3 to may 5 in boston",
+            "i need a hotel room for 4 people from may 3 to may 5 in boston"
+        ],
+        "accept_reservations": [
+            "can i do a reservation at sammy's crab shack",
+            "tell me if the new york restaurant takes reservations",
+            "will we have to make reservations for roca",
+            "does osteria francescana take reservations",
+            "do you have any idea if central needs reservations"
+        ],
+        "confirm_reservation": [
+            "please confirm that i have a reservation for march 1st at 7",
+            "confirm that there is a reservation at bellagio for thomas",
+            "will you call and check on my reservation for john at bardenay",
+            "i have a reservation for strip house for jennifer that i'd like to confirm",
+            "i'll be confirming my reservation for joseph at red lobster"
+        ],
+        "balance": [
+            "what's my current bank account total",
+            "how much do i have in my bank accounts",
+            "do i have enough in my wells fargo account to get some nike's",
+            "how much money is there in my bank accounts",
+            "how much do i have in my savings account"
+        ],
+        "rewards_balance": [
+            "x card has earned how many points",
+            "can you give me a points update on my rewards plus card",
+            "i wanna know how many points have i earned with my credit card",
+            "i wanna check my rewards for my credit card",
+            "how many rewards points do i have on my rewards points i have on my mastercard"
+        ],
+        "pto_balance": [
+            "give me vacation days remaining, please",
+            "how many vacation days do i still have available",
+            "please tell me the exact number of days i have still for vacation",
+            "how much vacation time do i have",
+            "what is the year to date total on my vacation days"
+        ]
+    },
+    "from_scratch": false,
+    "training_parameters": {
+        "num_train_epochs": 50
+    }
+}
