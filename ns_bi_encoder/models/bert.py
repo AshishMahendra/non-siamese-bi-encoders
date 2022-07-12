@@ -2,63 +2,90 @@
 BERT sequence classifier upperbound
 """
 
-import json
+import os
+import math
 from os.path import join as os_join
 
-import pandas as pd
+import numpy as np
+from transformers import (
+    BertTokenizer, BertForSequenceClassification,
+    TrainingArguments, Trainer, IntervalStrategy
+)
 import datasets
 
 from stefutil import *
 from ns_bi_encoder.util import *
 
 
-def load_json(path: str):
-    with open(path, 'r') as f:
-        return json.load(f)
+MODEL_NAME = 'BERT Seq CLS'
+HF_MODEL_NAME = 'bert-base-uncased'
 
 
-def process_dataset(dataset_name: str):
-    """
-    Clean up dataset from json to (text, label) pair format, with set of labels
-    """
-    d_path = sconfig(f'datasets.{dataset_name}.path')
-    path_tr, d_path_ts = d_path['train'], d_path['test']
-    path_ts_txt, path_ts_lb = d_path_ts['text'], d_path_ts['label']
-    tr = load_json(path_tr)['dataset']
-    dset = dict(train=sum(([dict(text=t, label=lb) for t in txts] for lb, txts in tr.items()), start=[]))
-    labels = set() | tr.keys()
-
-    d_ts_txt, ts_lb = load_json(path_ts_txt), load_json(path_ts_lb)
-    ts_txt = d_ts_txt['contexts']
-    assert len(ts_txt) == len(ts_lb)  # sanity check
-    dset['test'] = [dict(text=t, label=lb) for t, lb in zip(ts_txt, ts_lb)]
-    if dataset_name == 'sgd':
-        labels |= set(d_ts_txt['candidates'])  # union of labels in train & test split so that inference runs
-    else:
-        assert set(d_ts_txt['candidates']) == labels
-    return dict(pairs=dset, labels=sorted(labels))
-
-
-def datasets_to_disk():
-    logger = get_logger('Dset2Disk')
-    for dnm in sconfig('datasets').keys():
-        logger.info(f'Processing dataset {logi(dnm)}... ')
-        dsets = datasets.DatasetDict()
-        d_dset = process_dataset(dnm)
-        d_pairs, labels = d_dset['pairs'], d_dset['labels']
-        d_log = {'#sample': {s: len(ps) for s, ps in d_pairs.items()}, '#label': len(labels), 'labels': labels}
-        logger.info(f'Refactored with {logi(d_log)}')
-
-        for split, pairs in d_pairs.items():
-            df = pd.DataFrame(pairs)
-            lb2id = {lb: i for i, lb in enumerate(labels)}
-            df.label = df.label.map(lb2id)
-            feats = datasets.Features(text=datasets.Value(dtype='string'), label=datasets.ClassLabel(names=labels))
-            dsets[split] = datasets.Dataset.from_pandas(df, features=feats)
-        save_path = os_join(u.dset_path, 'processed', dnm)
-        logger.info(f'Writing to {logi(save_path)}... ')
-        dsets.save_to_disk(save_path)
+def compute_metrics(eval_pred):
+    if not hasattr(compute_metrics, 'acc'):
+        compute_metrics.acc = datasets.load_metric('accuracy')
+    logits, labels = eval_pred
+    preds = np.argmax(logits, axis=-1)
+    return dict(acc=compute_metrics.acc.compute(predictions=preds, references=labels)['accuracy'])
 
 
 if __name__ == '__main__':
-    datasets_to_disk()
+    import transformers
+
+    seed = sconfig('random-seed')
+
+    logger = get_logger(f'{MODEL_NAME} Train')
+    dnm = 'banking77'
+    dset = datasets.load_from_disk(os_join(u.dset_path, 'processed', dnm))
+    tr, ts = dset['train'], dset['test']
+    logger.info(f'Loaded dataset {logi(dnm)} with {logi(dset)} ')
+
+    bsz, n_ep, lr = 16, 50, 1e-4
+
+    feat_label = tr.features['label']
+
+    tokenizer = BertTokenizer.from_pretrained(HF_MODEL_NAME)
+    model = BertForSequenceClassification.from_pretrained(HF_MODEL_NAME, num_labels=feat_label.num_classes)
+    mic(tokenizer, type(model))
+
+    def tokenize(examples):
+        return tokenizer(examples['text'], padding='max_length', truncation=True)
+    tr, ts = tr.shuffle(seed=seed), ts.shuffle(seed=seed)
+    map_args = dict(batched=True, batch_size=16, num_proc=os.cpu_count())
+    tr, ts = tr.map(tokenize, **map_args), ts.map(tokenize, **map_args)
+    warmup_steps = math.ceil(len(tr) * n_ep * 0.1)  # 10% of train data
+
+    dir_nm = f'{now(for_path=True)}_{MODEL_NAME}-{dnm}'
+    output_path = os_join(get_output_base(), u.proj_dir, u.model_dir, dir_nm)
+    proj_output_path = os_join(u.base_path, u.proj_dir, u.model_path, dir_nm, 'trained')
+    mic(dir_nm, proj_output_path)
+    d_log = {
+        'learning rate': lr, 'batch size': bsz, 'epochs': n_ep,
+        'warmup steps': warmup_steps, 'save path': output_path
+    }
+    logger.info(f'Launching {MODEL_NAME} training with {log_dict(d_log)}... ')
+
+    training_args = TrainingArguments(
+        learning_rate=lr,
+        output_dir=output_path,
+        num_train_epochs=n_ep,
+        per_device_train_batch_size=bsz,
+        per_device_eval_batch_size=bsz,
+        warmup_steps=warmup_steps,
+        weight_decay=0.01,
+        load_best_model_at_end=True,
+        logging_strategy=IntervalStrategy.EPOCH,
+        save_strategy=IntervalStrategy.EPOCH,
+        evaluation_strategy=IntervalStrategy.EPOCH
+    )
+    trainer = Trainer(
+        model=model, args=training_args,
+        train_dataset=tr, eval_dataset=ts, compute_metrics=compute_metrics
+    )
+
+    transformers.set_seed(seed)
+    trainer.train()
+    mic(trainer.evaluate())
+    trainer.save_model(proj_output_path)
+    tokenizer.save_pretrained(proj_output_path)
+    os.listdir(proj_output_path)

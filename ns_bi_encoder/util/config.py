@@ -4,8 +4,8 @@ from os.path import join as os_join
 from ns_bi_encoder.util.util import u
 
 
-config_dict = dict(
-    datasets=dict(
+config_dict = {
+    'datasets': dict(
         banking77=dict(
             path=dict(
                 train=os_join(u.dset_path, 'banking_train.json'),
@@ -42,8 +42,9 @@ config_dict = dict(
                 )
             )
         )
-    )
-)
+    ),
+    'random-seed': 77
+}
 
 if __name__ == '__main__':
     import json
