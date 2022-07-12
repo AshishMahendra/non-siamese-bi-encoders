@@ -35,7 +35,8 @@ if __name__ == '__main__':
     seed = sconfig('random-seed')
 
     logger = get_logger(f'{MODEL_NAME} Train')
-    dnm = 'banking77'
+    # dnm = 'banking77'
+    dnm = 'snips'
     dset = datasets.load_from_disk(os_join(u.dset_path, 'processed', dnm))
     tr, ts = dset['train'], dset['test']
     logger.info(f'Loaded dataset {logi(dnm)} with {logi(dset)} ')
@@ -46,18 +47,18 @@ if __name__ == '__main__':
 
     tokenizer = BertTokenizer.from_pretrained(HF_MODEL_NAME)
     model = BertForSequenceClassification.from_pretrained(HF_MODEL_NAME, num_labels=feat_label.num_classes)
-    mic(tokenizer, type(model))
 
     def tokenize(examples):
         return tokenizer(examples['text'], padding='max_length', truncation=True)
     tr, ts = tr.shuffle(seed=seed), ts.shuffle(seed=seed)
-    map_args = dict(batched=True, batch_size=16, num_proc=os.cpu_count())
+    map_args = dict(batched=True, batch_size=16)
     tr, ts = tr.map(tokenize, **map_args), ts.map(tokenize, **map_args)
     warmup_steps = math.ceil(len(tr) * n_ep * 0.1)  # 10% of train data
 
-    dir_nm = f'{now(for_path=True)}_{MODEL_NAME}-{dnm}'
+    md_nm = MODEL_NAME.replace(' ', '_')
+    dir_nm = f'{now(for_path=True)}_{md_nm}-{dnm}'
     output_path = os_join(get_output_base(), u.proj_dir, u.model_dir, dir_nm)
-    proj_output_path = os_join(u.base_path, u.proj_dir, u.model_path, dir_nm, 'trained')
+    proj_output_path = os_join(u.base_path, u.proj_dir, u.model_dir, dir_nm, 'trained')
     mic(dir_nm, proj_output_path)
     d_log = {
         'learning rate': lr, 'batch size': bsz, 'epochs': n_ep,

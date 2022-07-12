@@ -3,8 +3,6 @@ import json
 import pandas as pd
 import datasets
 
-from ns_bi_encoder.util import *
-
 from os.path import join as os_join
 
 from stefutil import *
