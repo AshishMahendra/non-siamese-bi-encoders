@@ -25,12 +25,14 @@ if __name__ == '__main__':
             num_param=28527360,
             plt_kwargs=dict(c=od_blue, marker='8')
         ),
-        'Non-Siamese: TinyBERT-BERT': dict(
+        # 'Non-Siamese: TinyBERT-BERT': dict(
+        'Heterogeneous: TinyBERT-BERT': dict(
             accs={'Banking77': 0.897727272727272, 'SNIPS': 0.983684738955823, 'Clinc_150': 0.895805739514348, 'SGD': 0.763389669126398},
             num_param=18649600,
             plt_kwargs=dict(c=od_red, marker='o')
         ),
-        'Non-Siamese: BERT-TinyBERT': dict(
+        # 'Non-Siamese: BERT-TinyBERT': dict(
+        'Heterogeneous: BERT-TinyBERT': dict(
             accs={'Banking77': 0.887012987012987, 'SNIPS': 0.980923694779116, 'Clinc_150': 0.889183222958057, 'SGD': 0.733396810283265},
             num_param=18649600,
             plt_kwargs=dict(c=od_purple, marker='o'),
@@ -45,16 +47,22 @@ if __name__ == '__main__':
     dnms = ['SGD', 'Clinc_150', 'Banking77', 'SNIPS']
     n_dset = len(dnms)
 
-    width = 4
-    plt.figure(figsize=(width, width * 16/9))
-    base_ms = 5  # dynamic size based on model #parameter
+    width = 5
+    # with_line = True
+    with_line = False
+    # fig_sz = (width, width * 16/9)
+    fig_sz = (width, width)
+    plt.figure(figsize=fig_sz)
+    base_ms = 2  # dynamic size based on model #parameter
     ms_face_opacity = 0.5
     for model_name, d in hetero_data.items():
         accs = [d['accs'][dnm] * 100 for dnm in dnms]
         kws = d['plt_kwargs']
         if 'ms' not in kws:
-            kws['ms'] = base_ms * d['num_param'] / 1e7
-        plt.plot(accs, label=model_name, lw=0.75, **kws, markerfacecolor=[*kws['c'], ms_face_opacity])
+            kws['ms'] = base_ms * (d['num_param'] / 1e7) ** 2
+        args = dict(label=model_name, **kws, markerfacecolor=[*kws['c'], ms_face_opacity])
+        args['lw'] = 0.75 if with_line else 0
+        plt.plot(accs, **args)
 
     edge = 0.5
     ax = plt.gca()
