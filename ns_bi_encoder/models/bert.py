@@ -35,7 +35,8 @@ if __name__ == '__main__':
     seed = sconfig('random-seed')
 
     logger = get_logger(f'{MODEL_NAME} Train')
-    dnm = 'banking77'
+    # dnm = 'banking77'
+    dnm = 'snips'
     dset = datasets.load_from_disk(os_join(u.dset_path, 'processed', dnm))
     tr, ts = dset['train'], dset['test']
     logger.info(f'Loaded dataset {logi(dnm)} with {logi(dset)} ')

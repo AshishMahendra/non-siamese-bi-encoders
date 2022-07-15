@@ -1,7 +1,9 @@
 import os
 from os.path import join as os_join
 
-from ns_bi_encoder.util.util import u
+from stefutil import *
+
+from ns_bi_encoder.util.util import *
 
 
 config_dict = {
@@ -45,6 +47,15 @@ config_dict = {
     ),
     'random-seed': 77
 }
+
+
+for dnm in config_dict['datasets'].keys():
+    d_path = get(config_dict, f'datasets.{dnm}.path')
+    set_(config_dict, f'datasets.{dnm}.label', dict(  # Add labels for each dataset
+        train=sorted(load_json(d_path['train'])['dataset'].keys()),
+        test=sorted(load_json(get(d_path, 'test.text'))['candidates'])
+    ))
+
 
 if __name__ == '__main__':
     import json

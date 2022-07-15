@@ -1,4 +1,5 @@
 import json
+from typing import List
 
 import pandas as pd
 import datasets
@@ -12,7 +13,7 @@ from stefutil import *
 from ns_bi_encoder.util.data_path import BASE_PATH, PROJ_DIR, DSET_DIR, PKG_NM, MODEL_DIR
 
 
-__all__ = ['sconfig', 'u', 'get_output_base']
+__all__ = ['sconfig', 'u', 'load_json', 'get_output_base']
 
 sconfig = StefConfig(config_file=os_join(BASE_PATH, PROJ_DIR, PKG_NM, 'util', 'config.json')).__call__
 u = StefUtil(
@@ -81,5 +82,31 @@ def get_output_base():
         return u.base_path
 
 
+def check_label_overlap(dataset_name: str, text: str) -> List[str]:
+    """
+    :return: labels in the dataset that overlap with the text
+    """
+    d_lbs = sconfig(f'datasets.{dataset_name}.label')
+    labels = sorted(set().union(*(d_lbs.values())))
+    if dataset_name == 'clinc_150':
+        labels = [lb.replace('_', ' ') for lb in labels]
+
+    words = set(text.split())
+
+    def overlap(label: str) -> bool:
+        inter = words.intersection(label.split())
+        return len(inter) > 0
+
+    return [lb for lb in labels if overlap(lb)]
+
+
 if __name__ == '__main__':
-    datasets_to_disk()
+    # datasets_to_disk()
+
+    dnm = 'clinc_150'
+    # txt = 'what do i need to make a cajun chili'
+    # txt = 'you need to speak softer'
+    # txt = 'what\'s my vacation day total'
+    # txt = 'are there specific shots i need before traveling to japan'
+    txt = 'what shots do i need to get in order to travel to khartoum'
+    mic(check_label_overlap(dnm, txt))
